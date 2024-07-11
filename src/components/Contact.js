@@ -102,7 +102,9 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeInLeft" : ""}>
-                  <img src={educationImg1} alt="10th School" className="education-img" />
+                  <a href="https://denebacademy.edu.np" target="_blank" rel="noopener noreferrer">
+                    <img src={educationImg1} alt="10th School" className="education-img" />
+                  </a>
                   <h3>10th School</h3>
                   <p>Deneb Academy, Nepal</p>
                   <p>Outstanding Grade: 3.85/4</p>
@@ -114,7 +116,9 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeInUp" : ""}>
-                  <img src={educationImg2} alt="High School" className="education-img" />
+                  <a href="https://misktm.edu.np/" target="_blank" rel="noopener noreferrer">
+                    <img src={educationImg2} alt="High School" className="education-img" />
+                  </a>
                   <h3>High School</h3>
                   <p>Modern Indian School</p>
                   <p>Chobhar, Kathmandu</p>
@@ -126,8 +130,10 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeInRight" : ""}>
-                  <img src={educationImg3} alt="University" className="education-img" />
-                  <h3>University</h3>
+                  <a href="https://www.nitrkl.ac.in/" target="_blank" rel="noopener noreferrer">
+                    <img src={educationImg3} alt="Undergraduate Program" className="education-img" />
+                  </a>
+                  <h3>Undergraduate</h3>
                   <p>National Institute of Technology, Rourkela</p>
                   <p>B.Tech in Computer Science and Engineering</p>
                 </div>
